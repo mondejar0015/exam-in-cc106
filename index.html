@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Grocery Calculator</title>
+  </head>
+  <body>
+   <div class="container">
+    <h2>Grocery Calculator</h2>
+    <label>Wallet Amount: </label>
+    <input type="number" id="wallet" value="0" /><br /><br />
+
+    <h3>Grocery items:</h3>
+    <label>Apple (₱100/kg): </label>
+    <input type="number" id="apple" value="0" /><br /><br />
+    <label>Banana (₱100/kg): </label>
+    <input type="number" id="banana" value="0" /><br /><br />
+    <button onclick="calculate()">Calculate</button>
+
+    <h3>Result</h3>
+    <p>Wallet Amount: <span id="walletAmount">0</span></p>
+    <p>Grocery Total: <span id="groceryTotal">0</span></p>
+    <p>Remaining Wallet: <span id="remainingWallet">0</span></p>
+  </div>  
+  </body>
+</html>
